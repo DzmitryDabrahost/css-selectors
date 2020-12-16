@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>RS-training</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left-col">
+            <div class="left-col-content">
+                <header class="header">
+                    <div class="header-logo">
+                        <a href="#" class="header-link">
+                            <h1></h1><img class="header-logo" src="./assets/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header-languages">
+                        <img class="header-languages-icon" data-country="england" src="./assets/english.gif" alt="england">
+                        <img class="header-languages-icon" data-country="russia" src="./assets/russia.gif" alt="russia">
+                    </div>
+                </header>
+                <main class="main">
+                    <div class="main-top">
+                        <p class="top-title"></p>
+                        <button class="button top-hint-link"></button>                      
+                        <div class="top-visual" data-item="item0"></div>
+                    </div>
+                    <div class="main-input">
+                        <form class="bottom-form">
+                            <input type="text" class="form-input empty-input" autofocus>
+                            <button class="form-button">Enter</button>
+                        </form>
+                    </div>
+                    <div class="main-bottom">
+                        <div class="bottom-content">
+                            <div class="bottom-title">
+                                <div class="bottom-title-left">
+                                    <p>CSS Editor</p>
+                                    <p>style.css</p>
+                                </div>
+                                <div class="bottom-title-right">
+                                    <p>HTML Viewer</p>
+                                    <p>index.html</p>
+                                </div>
+                            </div>
+                            <div class="bottom-content-wrapper">
+                                <div class="bottom-left">
+                                    <div class="line-numbers">
+                                        1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15
+                                    </div>
+                                    <div class="markup">
+                                        <form class="bottom-form">
+                                            <input type="text" class="form-input empty-input" autofocus>
+                                            <button class="form-button">Enter</button>
+                                        </form>
+                                        <pre><code>{<br>/* Styles would go here. */<br>}<br>/*<br>Type a number to skip to a level<br>Ex -> "5" + Enter for level 5<br>*/</code>
+                                        </pre>
+                                    </div>
+                                </div>
+                                <div class="bottom-right">
+                                    <div class="line-numbers">
+                                        1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15
+                                    </div>
+                                    <div class="game-field"></div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </main>
+                <footer class="footer">
+                    <div class="footer-author">
+                        <p class="footer-autor-title">Made by:</p>
+                        <div class="footer-link">
+                            <img class="footer-icon" src="./assets/github.png" alt="gitlogo">
+                            <a href="https://github.com/DzmitryDabrahost">Dzmitry Dabrahost</a>
+                        </div>
+                    </div>
+                    <div class="footer-logo">
+                        <p>Special to: <a href="https://rs.school/js/">RSSchool</a></p>
+                        <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool">
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <div class="right-col">
+            <div class="right-col-arrow">
+                <p class="right-col-arrow-content"></p>
+            </div>
+            <div class="right-col-content">
+                <div class="right-top-title">
+                    <div class="right-title">Level <span class="level-count"></span></div>
+                    <span class="right-check main-right-check" data-number=""></span>
+                    <span class="right-check-hint main-right-check-hint" data-number=""></span>
+                    <a href="#" class="prev"></a>
+                    <a href="#" class="next"></a>
+                    <div class="level-menu"></div>
+                </div>
+                <div class="level-progress">
+                    <div class="progress"></div>
+                </div>
+                <div class="right-description">
+                    <div class="description-title">
+                        <h2 class="description-title-main"></h2>
+                        <h3 class="description-subtitle"></h3>
+                    </div>
+                    <span class="selector-type"></span>
+                    <div class="task-condition"></div>
+                    <p class="examples-text">Examples</p>
+                    <div class="examples-content"></div>
+                </div>
+            </div>
+            <div class="toggle-menu">
+                <div class="menu-title">
+                    Choose a level
+                </div>
+                <div class="menu-list"></div>
+                <button class="button reset-button">Reset progress</button>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>
